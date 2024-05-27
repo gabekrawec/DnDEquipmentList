@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: "Eagle Lake", serif;
+  background-image:url(images/woodgrain.jpeg);
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid #917346;
+  padding: 30px;
+  border-radius: 5px;
+  background-image:url(images/parchment.jpg);
+}
+
+.container h1{
+  text-align: center;
+}
+
+.container input{
+  font-family: "Eagle Lake", serif;
+  margin: 20px;
+  background-image:url(images/parchment.jpg);
+  background-size: cover;
+  border: 3px solid black;
+}
